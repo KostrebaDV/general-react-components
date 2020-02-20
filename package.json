@@ -1,5 +1,5 @@
 {
-	"name": "@app/react-base-components",
+	"name": "general-react-components",
 	"version": "0.0.1",
 	"description": "React base components",
 	"main": "index.js",
