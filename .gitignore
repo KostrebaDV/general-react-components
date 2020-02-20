@@ -1,0 +1,9 @@
+# dependencies
+/node_modules
+
+# ide
+*.iml
+*.xml
+.idea
+
+webpack.config.js

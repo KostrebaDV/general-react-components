@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import classNames from 'classnames';
-import classes from './styles/index.scss';
+import './MarginBox.css';
 
 const MarginBox = ({ children,
                         tiny, small, normal, large,
@@ -15,45 +15,45 @@ const MarginBox = ({ children,
 }) => {
     const componentClassName = classNames(
         {
-            [classes.margin_tiny]: tiny,
-            [classes.margin_small]: small,
-            [classes.margin_normal]: normal,
-            [classes.margin_large]: large,
+            [margin_tiny]: tiny,
+            [margin_small]: small,
+            [margin_normal]: normal,
+            [margin_large]: large,
 
-			[classes.margin_ultraVrTiny]: vrUltraTiny,
-			[classes.margin_ultraHrTiny]: hrUltraTiny,
-			[classes.margin_ultraTTiny]: tUltraTiny,
-			[classes.margin_ultraRTiny]: rUltraTiny,
-			[classes.margin_ultraBTiny]: bUltraTiny,
-			[classes.margin_ultraLTiny]: lUltraTiny,
+			[margin_ultraVrTiny]: vrUltraTiny,
+			[margin_ultraHrTiny]: hrUltraTiny,
+			[margin_ultraTTiny]: tUltraTiny,
+			[margin_ultraRTiny]: rUltraTiny,
+			[margin_ultraBTiny]: bUltraTiny,
+			[margin_ultraLTiny]: lUltraTiny,
 
-            [classes.margin_vrTiny]: vrTiny,
-            [classes.margin_hrTiny]: hrTiny,
-            [classes.margin_tTiny]: tTiny,
-            [classes.margin_rTiny]: rTiny,
-            [classes.margin_bTiny]: bTiny,
-            [classes.margin_lTiny]: lTiny,
+            [margin_vrTiny]: vrTiny,
+            [margin_hrTiny]: hrTiny,
+            [margin_tTiny]: tTiny,
+            [margin_rTiny]: rTiny,
+            [margin_bTiny]: bTiny,
+            [margin_lTiny]: lTiny,
 
-            [classes.margin_vrSmall]: vrSmall,
-            [classes.margin_hrSmall]: hrSmall,
-            [classes.margin_tSmall]: tSmall,
-            [classes.margin_rSmall]: rSmall,
-            [classes.margin_bSmall]: bSmall,
-            [classes.margin_lSmall]: lSmall,
+            [margin_vrSmall]: vrSmall,
+            [margin_hrSmall]: hrSmall,
+            [margin_tSmall]: tSmall,
+            [margin_rSmall]: rSmall,
+            [margin_bSmall]: bSmall,
+            [margin_lSmall]: lSmall,
 
-            [classes.margin_vrNormal]: vrNormal,
-            [classes.margin_hrNormal]: hrNormal,
-            [classes.margin_tNormal]: tNormal,
-            [classes.margin_rNormal]: rNormal,
-            [classes.margin_bNormal]: bNormal,
-            [classes.margin_lNormal]: lNormal,
+            [margin_vrNormal]: vrNormal,
+            [margin_hrNormal]: hrNormal,
+            [margin_tNormal]: tNormal,
+            [margin_rNormal]: rNormal,
+            [margin_bNormal]: bNormal,
+            [margin_lNormal]: lNormal,
 
-            [classes.margin_vrLarge]: vrLarge,
-            [classes.margin_hrLarge]: hrLarge,
-            [classes.margin_tLarge]: tLarge,
-            [classes.margin_rLarge]: rLarge,
-            [classes.margin_bLarge]: bLarge,
-            [classes.margin_lLarge]: lLarge,
+            [margin_vrLarge]: vrLarge,
+            [margin_hrLarge]: hrLarge,
+            [margin_tLarge]: tLarge,
+            [margin_rLarge]: rLarge,
+            [margin_bLarge]: bLarge,
+            [margin_lLarge]: lLarge,
         },
 		className
     );

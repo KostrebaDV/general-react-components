@@ -3,6 +3,9 @@
 	"version": "0.0.1",
 	"description": "React base components",
 	"main": "index.js",
+	"scripts": {
+		"build": "cross-env NODE_ENV=production webpack --mode"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/KostrebaDV/react-base-components.git"
@@ -17,9 +20,10 @@
 		"url": "https://github.com/KostrebaDV/react-base-components/issues"
 	},
 	"homepage": "https://github.com/KostrebaDV/react-base-components#readme",
-	"peerDependencies": {
+	"devDependencies": {
 		"react": "^16.11.0",
-		"react-router-dom": "^5.1.2"
+		"react-router-dom": "^5.1.2",
+		"babel-cli": "^6.26.0"
 	},
 	"dependencies": {
 		"classnames": "^2.2.6",
