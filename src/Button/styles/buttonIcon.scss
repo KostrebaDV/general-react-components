@@ -1,0 +1,31 @@
+.button_label {
+	margin-left: 8px;
+}
+
+.button_icon {
+
+}
+
+.button_hasIcon {
+	padding-left: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.button_onlyIcon {
+	border-radius: 50px;
+	line-height: inherit;
+
+	.button_icon {
+		top: initial;
+		position: inherit;
+	}
+
+	.button_hasIcon {
+		padding: 0;
+	}
+}
+
+.button_onlyIcon.button_hasIcon {
+	padding: 6px;
+}

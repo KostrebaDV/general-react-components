@@ -1,0 +1,29 @@
+{
+	"name": "@app/react-base-components",
+	"version": "0.0.1",
+	"description": "React base components",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/KostrebaDV/react-base-components.git"
+	},
+	"keywords": [
+		"react",
+		"components"
+	],
+	"author": "dkostreba",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/KostrebaDV/react-base-components/issues"
+	},
+	"homepage": "https://github.com/KostrebaDV/react-base-components#readme",
+	"peerDependencies": {
+		"react": "^16.11.0",
+		"react-router-dom": "^5.1.2"
+	},
+	"dependencies": {
+		"classnames": "^2.2.6",
+		"prop-types": "^15.7.2"
+	},
+	"private": false
+}

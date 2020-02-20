@@ -1,0 +1,15 @@
+.overlay_cloak {
+	transition: background-color .3s ease-out;
+}
+
+.overlay_cloak__show {
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	position: absolute;
+	z-index: 1;
+}
+
+.overlay_cloak__appeared {
+	background-color: rgba(0,0,0, .5);
+}

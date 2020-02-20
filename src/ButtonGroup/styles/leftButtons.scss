@@ -1,0 +1,8 @@
+.leftButtons {
+	display: flex;
+	justify-content: space-between;
+}
+
+.leftButtons > div:nth-child(2) {
+	margin-left: 8px;
+}
